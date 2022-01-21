@@ -39,7 +39,7 @@ console.log("4)");
 
 let nome = "Rogerio";
 
-if(nome[0] === "R") {
+if(nome.substring(0,1) === "R") {
   console.log("Seu nome começa com a letra R");
 } else{
   console.log("Seu nome não começa com a letra R");
@@ -51,8 +51,8 @@ console.log("5)");
 
 sobrenome = "Barros"
 
-if(sobrenome.length > 6 || nome[0] === "E"){
+if(sobrenome.length > 6 || nome.substring(0,1) === "E"){
     console.log("Seu sobrenome tem mais de 6 letras ou seu nome começa com a letra E.");
 } else {
-  console.log("Seu sobrenome não tem mais de 6 letras e nem começa com a letra E.");
+  console.log("Seu sobrenome não tem mais de 6 letras e seu nome não começa com a letra E.");
 }
